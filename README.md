@@ -4,7 +4,7 @@ Deux visualisations dynamiques en Python : l'attracteur de Lorenz (3D,
 vidéo) et le transport d'un réseau de points par un champ polynomial
 complex (animation interactive).
 
-> **Dépendance commune : ce projet nécessite le dépôt [`lib`](../lib).**
+> **Dépendance commune : ce projet nécessite le dépôt [`lib`]https://github.com/Lain-Iwakvra/lib.**
 > Voir [Installation](#installation).
 
 ## Scripts
@@ -46,13 +46,10 @@ position initiale, ce qui rend visible la déformation du champ.
 ## Installation
 
 ```bash
-git clone https://github.com/<ton_compte>/lib.git
-cd lib && pip install numpy numba
-```
+# 1. récupérer lib en frère du dossier courant
+git clone https://github.com/Lain-Iwakvra/lib.git
 
-Puis, à côté du dépôt courant :
-
-```bash
+# 2. rendre lib.py importable depuis ce dossier
 ln -s ../lib/lib.py .
 ```
 
