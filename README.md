@@ -12,7 +12,7 @@ complex (animation interactive).
 | Script | Description | Sortie |
 |---|---|---|
 | `Lorenz.py` | 125 000 points intégrés selon les équations de Lorenz, écrits directement en MP4 | `Lorenz_video.mp4` (1200×1200, 400 img, 60 fps) |
-| `vector.py` | Animation du champ `ż = z⁴ + 1` sur une grille 40×40 du plan complexe, intégré en RK4 | fenêtre matplotlib interactive |
+| `vector.py` | Animation du champ `ż = f(z)` sur une grille 40×40 du plan complexe, intégré en RK4 | fenêtre matplotlib interactive |
 
 ### `Lorenz.py`
 
